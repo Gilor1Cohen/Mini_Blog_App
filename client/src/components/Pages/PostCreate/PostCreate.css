@@ -1,0 +1,64 @@
+.post-create-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post-create-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.post-create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post-input {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.post-input:focus {
+  border-color: #007bff;
+}
+
+.post-submit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.post-submit-btn:hover:enabled {
+  background-color: #0056b3;
+}
+
+.post-submit-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+p {
+  color: red;
+  text-align: center;
+  margin-top: 15px;
+}
