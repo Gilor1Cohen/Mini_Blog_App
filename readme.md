@@ -40,15 +40,58 @@ The goal of this project is to understand the fundamentals of:
    cd Mini_Blog_App
    ```
 2. Install dependencies in each service folder
-   ```bash
-   npm install
-   ```
-3. Start each service on its port (4000, 4001, 4002, 4005, client).
 
    ```bash
-   npm start
-
+   cd event-bus   && npm i && cd ..
    ```
+
+   ```bash
+   cd posts && npm i && cd ..
+   ```
+
+   ```bash
+   cd comments && npm i && cd ..
+   ```
+
+   ```bash
+   cd query && npm i && cd ..
+   ```
+
+   ```bash
+   cd client && npm i && cd ..
+   ```
+
+3. Run (Development) Open 5 separate terminals and run:
+
+### Event Bus (4005)
+
+```bash
+cd event-bus && nodemon index.js
+```
+
+### Posts Service (4000)
+
+```bash
+cd posts && nodemon index.js
+```
+
+### Comments Service (4001)
+
+```bash
+cd comments && nodemon index.js
+```
+
+### Query Service (4002)
+
+```bash
+cd query && nodemon index.js
+```
+
+### Client (Vite default: 5173)
+
+```bash
+cd client && npm run dev
+```
 
 ## 📚 What I Learned
 
